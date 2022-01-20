@@ -12,4 +12,4 @@ connection.connect((error:Error) => {
     console.log("Database connection running");
 })
 
-export const dbconnection:mysql.Connection = connection;
+export default connection;
