@@ -1,6 +1,6 @@
-import UserController from './userController';
+import * as UserController from './userController';
 
 
-export default {
-    UserController
+export {
+    UserController,
 }

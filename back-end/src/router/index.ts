@@ -1,8 +1,10 @@
 import express from 'express';
 import UserRouter from './userRouter';
 
-const appRouter:express.Router = express.Router();
+const appRouter = express.Router();
 
 appRouter.use('/users', UserRouter);
 
-export default appRouter;
+export {
+    appRouter,
+} 

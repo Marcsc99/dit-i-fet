@@ -1,10 +1,10 @@
 import express from 'express';
 import connection from "./mysql-connection";
 import cors from "cors";
-import appRouter from "./router/index"
+import {appRouter} from "./router/index"
 
 const app:express.Application = express();
-const PORT:number = 3001;
+const PORT:number = 3050;
 
 app.use(cors({
     origin: '*',
